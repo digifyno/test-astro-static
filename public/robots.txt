@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://your-site.com/sitemap-index.xml
+Sitemap: https://test-astro-static.rsi.digify.no/sitemap-index.xml

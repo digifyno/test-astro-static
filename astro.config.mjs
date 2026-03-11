@@ -3,7 +3,7 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://your-site.com',
+  site: 'https://test-astro-static.rsi.digify.no',
   output: 'static',
   integrations: [sitemap()],
   vite: {
