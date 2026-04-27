@@ -18,3 +18,7 @@ node_modules/
 # OS
 .DS_Store
 Thumbs.db
+
+# Claude Code task working directories
+.claude/
+.claude-task-*/
