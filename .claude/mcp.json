@@ -1,0 +1,26 @@
+{
+  "mcpServers": {
+    "playwright": {
+      "command": "npx",
+      "args": [
+        "@playwright/mcp",
+        "--headless"
+      ]
+    },
+    "fetch": {
+      "command": "/home/rsi/.local/bin/mcp-server-fetch",
+      "args": [
+        "--ignore-robots-txt",
+        "--user-agent",
+        "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36"
+      ]
+    },
+    "build-runner": {
+      "command": "npx",
+      "args": [
+        "tsx",
+        "src/mcp-build-runner/index.ts"
+      ]
+    }
+  }
+}
