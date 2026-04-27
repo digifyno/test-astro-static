@@ -18,6 +18,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           type="text"
           id="name"
           name="name"
+          required
+          autocomplete="name"
           placeholder="Your name"
           class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
         />
@@ -31,6 +33,8 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           type="email"
           id="email"
           name="email"
+          required
+          autocomplete="email"
           placeholder="you@example.com"
           class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20"
         />
@@ -44,6 +48,7 @@ import BaseLayout from '../layouts/BaseLayout.astro';
           id="message"
           name="message"
           rows="6"
+          required
           placeholder="Your message..."
           class="w-full rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-800 px-4 py-2.5 text-gray-900 dark:text-white placeholder-gray-400 dark:placeholder-gray-500 focus:border-blue-500 focus:outline-none focus:ring-2 focus:ring-blue-500/20 resize-none"
         ></textarea>
