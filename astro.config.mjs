@@ -8,5 +8,10 @@ export default defineConfig({
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],
+    build: {
+      rollupOptions: {
+        maxParallelFileOps: 20,
+      },
+    },
   },
 });
